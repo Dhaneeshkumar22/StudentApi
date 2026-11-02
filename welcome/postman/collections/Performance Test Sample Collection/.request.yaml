@@ -1,0 +1,14 @@
+$kind: http-request
+name: ""
+url: http://localhost:8001/api/casemaster/search
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \ \r
+
+    \  \"apn\": [\"24119032\"]\r
+
+    }"
+order: 1000

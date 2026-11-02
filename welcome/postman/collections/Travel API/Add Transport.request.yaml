@@ -1,0 +1,15 @@
+$kind: http-request
+name: Add Transport
+method: POST
+url: 'http://localhost:8080/travel/add'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "id": 0,
+      "name": "Test Transport",
+      "distance": 100.0
+    }
