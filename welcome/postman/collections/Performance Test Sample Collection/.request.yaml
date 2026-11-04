@@ -1,3 +1,4 @@
+<--postman-->
 $kind: http-request
 name: ""
 url: http://localhost:8001/api/casemaster/search
